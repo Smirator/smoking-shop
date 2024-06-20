@@ -1,0 +1,30 @@
+/*Секция со статьями на главной странице*/
+.section-blog {
+    padding: 50px 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.section-blog .card {
+    border: none;
+}
+
+.section-blog .card-body {
+    background-color: rgba(251, 251, 251, 1);
+    padding: 0.5rem 1rem;
+}
+
+.section-blog .card-body .date {
+    color: var(--green);
+}
+
+.section-blog .card-body .card-text {
+    color: var(--font-light-gray);
+}
+
+.description-section-blog {
+    color: var(--font-light-gray);
+    margin-bottom: 30px;
+    text-align: center;
+}

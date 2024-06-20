@@ -1,0 +1,53 @@
+/*footer*/
+.black-section a,
+.black-section span {
+    color: var(--white);
+}
+
+footer .black-section {
+    padding: 20px 0;
+}
+
+
+.black-section a {
+    text-decoration: none;
+}
+
+.wrapper-contacts {
+    gap: 25px;
+}
+
+.wrapper-contacts-el {
+    gap: 8px;
+}
+
+.icons-black-section-footer {
+    width: 20px;
+    height: 20px;
+}
+
+footer a,
+footer a:hover {
+    color: var(--light-black);
+    text-decoration: none;
+}
+
+footer p {
+    margin-bottom: 0.3rem;
+}
+
+.block-danger {
+    padding-top: 66px;
+    padding-bottom: 57px;
+}
+
+.danger-text {
+    color: var(--gray);
+    margin: 0 auto;
+    width: 75%;
+}
+
+.section-studio {
+    padding-top: 42px;
+    padding-bottom: 39px;
+}

@@ -1,0 +1,40 @@
+/*Секция с мерчем на главной странице*/
+
+.section-merch {
+    padding: 60px 0;
+    margin-top: 115px;
+    margin-bottom: 50px;
+}
+
+
+.block-merch {
+    background-color: rgba(250, 250, 250, 1);
+    padding: 37px 30px 0 37px;
+}
+
+.required-product::after {
+    content: '';
+    position: absolute;
+    top: -95px;
+    right: 120;
+    min-width: 380px;
+    min-height: 363px;
+    z-index: 0;
+}
+
+.block-merch .title-merch {
+    margin-bottom: 41px;
+    max-width: 170px;
+    text-align: right;
+    margin-left: auto;
+}
+
+.block-merch .description-merch {
+    color: var(--font-light-gray);
+    font-weight: 300;
+    margin-bottom: 26px;
+}
+
+.merch-img {
+    margin-top: -215px;
+}
