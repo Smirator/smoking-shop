@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'Stolzl';
+    src: url('Stolzl-Light.eot');
+    src: local('font/Stolzl Light'), local('Stolzl-Light'),
+        url('font/Stolzl-Light.eot?#iefix') format('embedded-opentype'),
+        url('font/Stolzl-Light.woff2') format('woff2'),
+        url('font/Stolzl-Light.woff') format('woff'),
+        url('font/Stolzl-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stolzl';
+    src: url('font/Stolzl-Thin.eot');
+    src: local('font/Stolzl Thin'), local('Stolzl-Thin'),
+        url('font/font/Stolzl-Thin.eot?#iefix') format('embedded-opentype'),
+        url('font/Stolzl-Thin.woff2') format('woff2'),
+        url('font/Stolzl-Thin.woff') format('woff'),
+        url('font/Stolzl-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stolzl Book';
+    src: url('font/Stolzl-Book.eot');
+    src: local('font/Stolzl Book'), local('Stolzl-Book'),
+        url('font/Stolzl-Book.eot?#iefix') format('embedded-opentype'),
+        url('font/Stolzl-Book.woff2') format('woff2'),
+        url('font/Stolzl-Book.woff') format('woff'),
+        url('font/Stolzl-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stolzl';
+    src: url('font/Stolzl-Regular.eot');
+    src: local('font/Stolzl Regular'), local('Stolzl-Regular'),
+        url('font/Stolzl-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/Stolzl-Regular.woff2') format('woff2'),
+        url('font/Stolzl-Regular.woff') format('woff'),
+        url('font/Stolzl-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stolzl';
+    src: url('font/Stolzl-Bold.eot');
+    src: local('font/Stolzl Bold'), local('Stolzl-Bold'),
+        url('font/Stolzl-Bold.eot?#iefix') format('embedded-opentype'),
+        url('font/Stolzl-Bold.woff2') format('woff2'),
+        url('font/Stolzl-Bold.woff') format('woff'),
+        url('font/Stolzl-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stolzl';
+    src: url('font/Stolzl-Medium.eot');
+    src: local('font/Stolzl Medium'), local('Stolzl-Medium'),
+        url('font/Stolzl-Medium.eot?#iefix') format('embedded-opentype'),
+        url('font/Stolzl-Medium.woff2') format('woff2'),
+        url('font/Stolzl-Medium.woff') format('woff'),
+        url('font/Stolzl-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+
+/*Цвета*/
+body {
+    --white: rgba(255, 255, 255, 1);
+    --green: rgba(150, 195, 97, 1);
+    --dull-green: rgba(70, 163, 88, 0.3);
+    --light-black: rgba(61, 61, 61, 1);
+    --black: rgba(42, 42, 42, 1);
+    --orange: rgba(239, 161, 66, 1);
+    --font-gray: rgba(90, 90, 90, 1);
+    --font-light-gray: rgba(114, 114, 114, 1);
+    --gray: rgba(165, 165, 165, 1);
+    --light-gray: rgba(234, 234, 234, 1);
+    --red: rgba(235, 87, 87, 1);
+    --black-font: rgba(0, 0, 0, 1);
+}
+
+/*/Цвета*/
+
+body a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+body a:hover {
+    color: var(--green);
+}
+
+.btn-green,
+.btn-green:hover {
+    color: var(--white);
+    background-color: var(--green);
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 26px 9px 26px;
+}
+
+
+a.btn-green.arrow {
+    padding: 8px 41px 8px 9px;
+    position: relative;
+}
+
+a.btn-green.arrow::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+    background: url("data:image/svg+xml;charset=UTF-8,%3csvg width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M14.8125 8.79395H3.5625' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3e%3cpath d='M10.2747 4.27575C10.2747 4.27575 14.8122 6.7215 14.8122 8.793C14.8122 10.866 10.2747 13.3125 10.2747 13.3125' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e ") no-repeat center center;
+    transform: translateY(-50%);
+}
+
+
+.btn-black {
+    color: var(--white);
+    background-color: var(--black);
+    border-radius: 6px;
+    border: none;
+    padding: 7px 26px;
+}
+
+.btn-orange {
+    color: var(--white);
+    background-color: var(--orange);
+    border-radius: 6px;
+    border: none;
+    padding: 7px 26px;
+}
+
+.btn-transparent {
+    background: transparent;
+    border: none;
+    padding: 7px 26px;
+}
+
+.gap-64 {
+    gap: 64px;
+}
+
+.pt-33 {
+    padding-top: 33px;
+}
+
+.pb-45 {
+    padding-bottom: 45px;
+}
+
+.mb-36 {
+    margin-bottom: 36px;
+}
+
+.mb-55 {
+    margin-bottom: 55px;
+}
+
+.green-text {
+    color: var(--green);
+}
+
+.clue {
+    color: var(--gray)
+}
+
+.border-gray {
+    border-bottom: 1px solid rgba(226, 226, 226, 1);
+}
+
+.c-orange {
+    color: var(--orange);
+}
+
+.c-green {
+    color: var(--green);
+}
